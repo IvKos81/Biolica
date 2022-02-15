@@ -13,13 +13,13 @@ body {
 
 .header_container,
 .footer_container {
-    width: 450px;
+    width: 80%;
     margin: 0 auto;
     padding: 10px;
 }
 
 .container {
-    width: 450px;
+    width: 80%;
     margin: 0 auto;
     padding: 10px;
 
@@ -104,19 +104,19 @@ body {
 }
 
 .point1 {
-    margin-left: -150px;
+    margin-left: -25%;
 }
 
 .point {
-    margin-left: 50px;
+    margin-left: 0%;
 }
 
 .point3 {
-    margin-left: 100px;
+    margin-left: 15%;
 }
 
 .point4 {
-    margin-left: 200px;
+    margin-left: 40%;
 }
 
 .advantages_text {
@@ -176,8 +176,8 @@ body {
 }
 
 .product_price {
-    width: 400px;
-    height: 100px;
+    width: 70%;
+    height: auto;
 
     background-color: #be0003;
     border-radius: 15px;
@@ -307,7 +307,7 @@ body {
 }
 
 .card {
-    width: 350px;
+    width: 50%;
     height: auto;
 
     padding: 15px;
@@ -408,4 +408,53 @@ body {
 .footer_text {
     text-align: center;
     color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .header_logo_gallery {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    .review_point {
+        display: block;
+        width: 150px;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 15px;
+        background-color: #ff9401;
+        color: #ffffff;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .point1 {
+        margin-left: 0;
+    }
+    
+    .point {
+        margin-left: 0;
+    }
+    
+    .point3 {
+        margin-left: 0;
+    }
+    
+    .point4 {
+        margin-left: 0;
+    }
+    
 }
