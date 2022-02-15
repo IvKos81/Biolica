@@ -410,7 +410,7 @@ body {
     color: #ffffff;
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) and (orientation: portrait) {
     .header_logo_gallery {
         display: -webkit-box;
         display: -ms-flexbox;
