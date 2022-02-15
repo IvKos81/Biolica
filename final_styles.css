@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    width: 100%;
+    height: auto;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+
+    overflow-x: hidden;
+}
+
+.header_container,
+.footer_container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: auto;
+    background: url('./image/header-bg.png') center no-repeat;
+    background-size: cover;
+}
+
+.header_logo_gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.header_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    color: #ff9401;
+    text-transform: capitalize;
+}
+
+.header_text {
+    font-size: 1.5rem;
+    color: #be0003;
+    text-align: center;
+}
+
+
+/* main */
+
+.main {
+    width: 100%;
+    height: auto;
+    background: -webkit-gradient(linear, right top, left top, from(#07a71d),to(#219730));
+    background: -o-linear-gradient(right, #07a71d,#219730);
+    background: linear-gradient(270deg, #07a71d,#219730);
+}
+
+/* advantages */
+
+.advantages {
+    width: 100%;
+    height: auto;
+    background: url('./image/form-bg.png') center no-repeat;
+    background-size: cover;
+
+}
+
+.advantages_point {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.point1 {
+    margin-left: -200px;
+}
+
+.point {
+    margin-left: 50px;
+}
+
+.point3 {
+    margin-left: 150px;
+}
+
+.point4 {
+    margin-left: 300px;
+}
+
+.advantages_text {
+    margin-left: 30px;
+    font-size: 1.5rem;
+    color: #ff9401;
+    text-align: center;
+}
+
+/* product */
+
+.product {
+    width: 100%;
+    height: auto;
+    background: url('./image/main_bg.png') center no-repeat;
+    background-size: cover;
+}
+
+.product_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.product_image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    position: relative;
+}
+
+.product_image1 {
+    position: absolute;
+    top: 24%;
+    left: 70%;
+}
+
+.product_price {
+    width: 400px;
+    height: 100px;
+
+    background-color: #be0003;
+    border-radius: 15px;
+    position: relative;
+}
+
+.price_new {
+    font-weight: 800;
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.price_new:hover {
+    transform: scaleX(1.1);
+}
+
+.price_old { 
+    position: absolute; 
+    right: 5%;
+    top: 5%;
+
+    font-weight: 200;
+    font-size: 1.1rem;
+    color: #ff9401;
+
+    text-decoration: line-through;
+}
+
+.price_old:hover {
+    transform: scaleX(0.8);
+}
+
+
+.product_text1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #be0003;
+    text-align: center;
+}
+
+.product_text2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: #ff9401;
+    text-align: center;
+}
+
+/* review */
+
+.review {
+    width: 100%;
+    height: auto;
+    background-color: #FFD59C;
+}
+
+.review_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.review_title,
+.review_text3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1600db;
+    text-align: center;
+}
+
+.review_text1,
+.review_text2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #1600db;
+    text-align: center;
+}
+
+.review_point {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: #ff9401;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+/* feedback */
+
+.feedback {
+    width: 100%;
+    height: auto;
+    background: url('./image/form-bg.png') center no-repeat;
+    background-size: cover;
+
+}
+
+.feedback_gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card {
+    width: 370px;
+    height: auto;
+
+    padding: 15px;
+    margin-bottom: 15px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    border: 2px solid #ff9401
+}
+
+.card_name,
+.card_age {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #ff9a45;
+}
+
+.card_rating,
+.card_feedback {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ff9a45;
+}
+/* promo */
+.promo {
+    width: 100%;
+    height: auto;
+    background: url('./image/main_bg.png') center no-repeat;
+    background-size: cover;
+
+}
+
+.promo_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.promo_image:hover {
+    transform: scaleX(1.2) scaleY(1.2);
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: auto;
+    background: -webkit-gradient(linear, right top, left top, from(#219730), to(#07a71d));
+    background: -o-linear-gradient(right, #219730, #07a71d);
+    background: linear-gradient(270deg, #219730, #07a71d);
+}
+
+.footer_logo_gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.footer_text {
+    text-align: center;
+    color: #ffffff;
+}
